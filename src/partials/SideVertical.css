@@ -1,0 +1,46 @@
+.side-vertical {
+  display: flex;
+  justify-content: space-between;
+  height: 550px;
+  padding: 14px 20px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.side-title {
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  color: #aeaeae;
+}
+
+.side-date {
+  font-family: "Manrope", monospace;
+}
+
+.side-number {
+  font-family: "Manrope", monospace;
+}
+
+.disabled-color {
+  color: #aeaeae;
+}
+
+a.arrow {
+  color: #000;
+}
+
+a.arrow:hover {
+  color: #000;
+}
+
+.side-title,
+.side-date,
+.side-number {
+  cursor: default;
+}
+
+@media (max-width: 992px) {
+  .side-vertical {
+    display: none !important;
+  }
+}

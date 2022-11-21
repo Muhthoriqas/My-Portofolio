@@ -1,0 +1,110 @@
+.home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0 75px 0 75px !important;
+}
+
+.home-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-right {
+    display: flex;
+    align-items: center;
+}
+
+.home-left, .home-right {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.home-left h2 {
+    font-family: 'Archivo', sans-serif; 
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 75px;
+    cursor: default;
+}
+
+.home-left h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    cursor: default;
+}
+
+.home-left h2 span.name-hover:hover {
+    -webkit-text-fill-color: var(--fourth-color);
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+img.home-image {
+    width: 400px;
+}
+
+.btn-download {
+    width: 200px;
+    padding: 12px 8px;
+    margin-top: 12px;
+    border-radius: 0px;
+    box-shadow: 8px 8px var(--third-color);
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: var(--fourth-color);
+    background-color: var(--first-color);
+    transition: 0.5s;
+}
+
+.btn-download:hover {
+    color: var(--first-color);
+    background-color: var(--third-color);
+    box-shadow: 0px 0px transparent;
+}
+
+@media (max-width: 1170px) {
+    .home-wrapper {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .home-wrapper {
+        margin: 80px 0 80px 0 !important;
+        text-align: center;
+        display: block;
+    }
+
+    .home-left, .home-right {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .home-left h2 {
+        font-size: 60px;
+        margin-bottom: 14px;
+    }
+
+    .home-right {
+        display: none !important;
+    }
+
+    a.btn-download {
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-left h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .home-left h3 {
+        font-size: 26px;
+    }
+}

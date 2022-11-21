@@ -1,0 +1,181 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0 75px 0 75px !important;
+}
+
+.contact-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-left {
+    width: 300px;
+}
+
+.contact-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+}
+
+.contact-left h3, .contact-left h4 {
+    cursor: default;
+}
+
+.contact-left h3 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.contact-left h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+.email-wrapper, .linkedin-wrapper,
+.github-wrapper, .instagram-wrapper {
+    width: 350px;
+    margin: 8px 0 8px 0;
+    padding: 18px;
+    background-color: var(--third-color);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+.email-wrapper h3, .linkedin-wrapper h3,
+.github-wrapper h3, .instagram-wrapper h3 {
+    font-family: 'Archivo', sans-serif;
+    cursor: default;
+}
+
+.email-wrapper p, .linkedin-wrapper p,
+.github-wrapper p, .instagram-wrapper p {
+    font-family: 'Manrope', sans-serif;
+    font-style: italic;
+    margin: 0;
+    cursor: default;
+}
+
+a.btn-direct {
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #000;
+    padding: 5px 10px 5px 10px;
+    margin: 6px 0 3px 0;
+    border-radius: .3rem;
+    border: 2px solid transparent;
+    color: var(--fourth-color);
+}
+
+a.btn-direct:hover {
+    color: var(--fourth-color);
+}
+
+button.btn-copy {
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #D8D2CB;
+    padding: 5px 10px 5px 10px;
+    margin: 6px 0 3px 0;
+    border-radius: .3rem;
+    border: 2px solid #000;
+    color: #000;
+}
+
+button.btn-copy:hover {
+    background-color: #000;
+    color: var(--fourth-color);
+}
+
+.col.contact-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    padding-top: 12px;
+    height: 320px !important;
+}
+
+@media (max-width: 1400px) {
+    .contact-wrapper {
+        margin: 0 20px 0 20px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-wrapper {
+        margin: 0 30px 0 30px !important;
+        flex-direction: column !important;
+        justify-content: start;
+    }
+
+    .contact-left {
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-wrapper {
+        margin: 0 20px 0 20px !important;
+    }
+
+    .contact-left h3 {
+        font-size: 40px;
+    }
+
+    .contact-left h4 {
+        font-size: 16px;
+    }
+
+    .email-wrapper, .linkedin-wrapper,
+    .github-wrapper, .instagram-wrapper {
+        width: 300px;
+    }
+
+    .email-wrapper h3, .linkedin-wrapper h3,
+    .github-wrapper h3, .instagram-wrapper h3 {
+        font-size: 20px;
+    }
+
+    .email-wrapper p, .linkedin-wrapper p,
+    .github-wrapper p, .instagram-wrapper p {
+        font-size: 14px;
+    }
+
+    a.btn-direct, button.btn-copy {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-left {
+        margin-bottom: 10px;
+    }
+
+    .contact-container {
+        height: 450px !important;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}

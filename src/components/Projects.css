@@ -1,0 +1,165 @@
+.projects-container {
+  margin: 0 10px 0 10px !important;
+}
+
+.projects-title h3 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.projects-title h4 {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+
+.projects-wrapper {
+  height: 450px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.project-card {
+  width: 300px;
+  background-color: var(--third-color);
+  border-radius: 0.3rem;
+  padding-bottom: 16px;
+  margin-top: 16px;
+}
+
+.project-card img {
+  width: 300px !important;
+  padding: 16px 16px 12px 16px;
+  border-radius: 0.3rem;
+}
+
+.project-card .project-content {
+  padding: 0 16px 0 16px;
+}
+
+.project-card .project-content h3 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: default;
+}
+
+.project-card .project-content p {
+  font-family: "Manrope", sans-serif;
+  cursor: default;
+}
+
+a.btn-website,
+a.btn-github {
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
+  color: var(--fourth-color);
+  padding: 6px 8px 6px 8px;
+  border-radius: 0.3rem;
+  font-size: 14px;
+}
+
+a.btn-website:hover,
+a.btn-github:hover {
+  color: var(--fourth-color);
+}
+
+a.btn-website {
+  margin-right: 6px;
+  background-color: #0d6efd;
+}
+
+a.btn-github {
+  background-color: #000;
+}
+
+.project-icon {
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.tech-stack-wrapper {
+  width: 600px;
+  height: auto;
+  margin-top: 16px;
+}
+
+span#tech-stack {
+  background-color: var(--first-color);
+  font-family: "Manrope", sans-serif;
+  color: var(--fourth-color);
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 6px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 0.3rem;
+}
+
+@media (max-width: 1200px) {
+  .col.project-col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-container {
+    margin: 0 !important;
+  }
+
+  .projects-title {
+    padding-left: 10px;
+  }
+
+  .projects-title h3 {
+    font-size: 40px;
+  }
+
+  .projects-title h4 {
+    font-size: 16px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col.project-col {
+    justify-content: start;
+  }
+
+  .project-card img {
+    width: 225px !important;
+  }
+}
+#portfolio {
+  height: 100vh;
+  overflow: scroll;
+  padding: 10vh 0px;
+}
+#portfolio .imgsec {
+  height: 40vh;
+  margin-bottom: 5vh;
+  overflow: hidden;
+  border: 3px solid #000;
+  border-top: 30px solid #000;
+  position: relative;
+}
+#portfolio .imgsec:hover img {
+  animation: portfolioani 7s linear;
+}
+#portfolio .imgsec:hover {
+  transform: scale(1.03);
+  transition: 1s ease;
+  outline: 3px solid #000;
+}
+@keyframes portfolioani {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
