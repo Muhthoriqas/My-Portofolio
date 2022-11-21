@@ -16,7 +16,7 @@ const Portfolio = () => {
                 <br />
               </div>
               <div className="col-sm-4">
-                <div className="imgsec" data-aos="zoom-in">
+                <div className="imgsec img-fluid" data-aos="zoom-in">
                   <img src={onelife} className="img-fluid" alt="1Life" />
                 </div>
               </div>

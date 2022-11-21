@@ -1,10 +1,10 @@
-#portfolio {
+/* #portfolio {
   height: 100vh;
   overflow: scroll;
   padding: 10vh 0px;
 }
 .imgsec {
-  height: 40vh;
+  height: 30vh;
   margin-bottom: 5vh;
   overflow: hidden;
 
@@ -24,4 +24,4 @@
   100% {
     transform: translateY(-100%);
   }
-}
+} */
