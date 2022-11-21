@@ -114,6 +114,10 @@ span#tech-stack {
   transform: scale(0.95);
   transition: 1s ease;
 }
+.project-card img .dif-image-project {
+  width: 100px;
+  height: 40vh;
+}
 @keyframes portfolioani {
   0% {
     transform: translateY(0%);

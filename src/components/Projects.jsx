@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
-import Project1 from "../assets/img/E-Bookpolis.png";
+import Project1 from "../assets/img/Project1.png";
 import Project2 from "../assets/img/Project2.png";
 import Project3 from "../assets/img/Project3.png";
 import Project4 from "../assets/img/Project4.png";
@@ -14,7 +14,7 @@ import Project11 from "../assets/img/Project11.png";
 import Project12 from "../assets/img/Project12.png";
 import Project13 from "../assets/img/Project13.png";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Player } from "video-react";
+// import { Player } from "video-react";
 
 import "./Projects.css";
 
@@ -75,7 +75,9 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
-                <img src={Project2} alt="Project 2" loading="lazy" />
+                <div className="imgsec">
+                  <img src={Project2} alt="Project 2" loading="lazy" />
+                </div>
                 <div className="project-content">
                   <h3>Digital Wedding Invitation - NoShi</h3>
                   <p>
@@ -104,7 +106,9 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
-                <img src={Project3} alt="Project 3" loading="lazy" />
+                <div className="imgsec">
+                  <img src={Project3} alt="Project 3" loading="lazy" />
+                </div>
                 <div className="project-content">
                   <h3>BisaNgopi</h3>
                   <p>
@@ -140,7 +144,9 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
-                <img src={Project4} alt="Project 4" loading="lazy" />
+                <div className="imgsec">
+                  <img src={Project6} alt="Project 4" loading="lazy" />
+                </div>
                 <div className="project-content">
                   <h3>GuessYourCrush</h3>
                   <p>
@@ -210,7 +216,7 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
-                <img src={Project6} alt="Project 6" loading="lazy" />
+                <img src={Project10} alt="Project 6" loading="lazy" />
                 <div className="project-content">
                   <h3>Mathducation</h3>
                   <p>
@@ -337,7 +343,7 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
-                <img src={Project10} alt="Project 10" loading="lazy" />
+                <img src={Project12} alt="Project 10" loading="lazy" />
                 <div className="project-content">
                   <h3>PopCat Click</h3>
                   <p>
@@ -397,7 +403,14 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
-                <img src={Project12} alt="Project 12" loading="lazy" />
+                <div className="imgsec">
+                  <img
+                    src={Project4}
+                    alt="Project 12"
+                    className="dif-image-project"
+                    loading="lazy"
+                  />
+                </div>
                 <div className="project-content">
                   <h3>SapuLator</h3>
                   <p>
@@ -430,7 +443,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col project-col">
+            {/* <div className="col project-col">
               <div className="project-card">
                 <img src={Project13} alt="Project 13" loading="lazy" />
                 <div className="project-content">
@@ -464,7 +477,7 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </Container>
