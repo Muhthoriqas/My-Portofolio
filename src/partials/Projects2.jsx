@@ -1,7 +1,7 @@
 import React from "react";
 import onelife from "../assets/img/E-Bookpolis.png";
-import { Container } from "react-bootstrap";
-import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
+// import { Container } from "react-bootstrap";
+// import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import "./projects2.css";
 
 const Portfolio = () => {
