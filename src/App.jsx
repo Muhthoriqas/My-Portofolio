@@ -10,7 +10,6 @@ import NavTop from "./partials/NavTop";
 import NavBot from "./partials/NavBot";
 import Footer from "./partials/Footer";
 import Home from "./components/Home";
-import Portfolio from "./partials/Projects2";
 import "./App.css";
 
 function App() {
@@ -46,7 +45,6 @@ function App() {
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/portofolio" element={<Portfolio />}></Route>
         </Routes>
       </div>
       <Footer />
