@@ -25,7 +25,8 @@
   background-color: var(--third-color);
   border-radius: 0.3rem;
   padding-bottom: 16px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
+  margin-bottom: 16px;
 }
 
 .project-card img {
