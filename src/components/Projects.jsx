@@ -12,7 +12,6 @@ import Project9 from "../assets/img/Project9.png";
 import Project10 from "../assets/img/Project10.png";
 import Project11 from "../assets/img/Project11.png";
 import Project12 from "../assets/img/Project12.png";
-import Project13 from "../assets/img/Project13.png";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 // import { Player } from "video-react";
 
