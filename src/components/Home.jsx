@@ -3,8 +3,8 @@
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import avatarAnimation from "../assets/img/Avatar.png";
-import avatarReal from "../assets/img/profile.jpg";
+import realProfile from "../assets/img/profile1.png";
+import hoverProfile from "../assets/img/profilehover.png";
 // import CVDoc from "../assets/download/CV.pdf";
 import Hi from "../assets/img/Hi.gif";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -12,14 +12,14 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./Home.css";
 
 function Home() {
-  const [image, setImage] = useState(avatarAnimation);
+  const [image, setImage] = useState(realProfile);
 
   function setAvatarReal() {
-    setImage(avatarReal);
+    setImage(hoverProfile);
   }
 
   function setAvatarAnimation() {
-    setImage(avatarAnimation);
+    setImage(realProfile);
   }
 
   return (

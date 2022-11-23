@@ -40,15 +40,14 @@ function Projects() {
                   <img src={Project1} alt="Project 1" loading="lazy" />
                 </div>
                 <div className="project-content">
-                  <h3>TeyMii</h3>
+                  <h3>SEFOR</h3>
                   <p>
-                    TeyMii adalah web yang menghubungkan dengan
-                    teman/sahabat/orang lain, melalui pesan secara rahasia tanpa
-                    diketahui siapa pengirimnya
+                    SEFOR is a website to search food recipes around the world,
+                    this website uses the edamam API.
                   </p>
                   <a
                     className="btn-website"
-                    href="http://teymii.herokuapp.com/"
+                    href="https://muhthoriqas.github.io/Google-Books-Search-ReactJS/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -57,7 +56,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/teymii"
+                    href="https://github.com/Muhthoriqas/Google-Books-Search-ReactJS"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -65,9 +64,9 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Laravel</span>
-                    <span id="tech-stack">Livewire</span>
-                    <span id="tech-stack">Bootstrap</span>
+                    <span id="tech-stack">Javascript</span>
+                    <span id="tech-stack">SASS</span>
+                    <span id="tech-stack">API</span>
                   </div>
                 </div>
               </div>
@@ -78,10 +77,10 @@ function Projects() {
                   <img src={Project2} alt="Project 2" loading="lazy" />
                 </div>
                 <div className="project-content">
-                  <h3>Digital Wedding Invitation - NoShi</h3>
+                  <h3>GOBOKS</h3>
                   <p>
-                    Undangan pernikahan digital dengan dilengkapi fitur
-                    kehadiran menggunakan QR Code
+                    GOBOKS is a website to search books from google. This
+                    website uses the Google Books APIs.
                   </p>
                   <a
                     className="btn-github"
@@ -93,12 +92,12 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Laravel</span>
-                    <span id="tech-stack">Livewire</span>
-                    <span id="tech-stack">Alpine JS</span>
+                    <span id="tech-stack">ReactJS</span>
+                    <span id="tech-stack">Reactstrap</span>
+                    <span id="tech-stack">API</span>
                     <p></p>
-                    <span id="tech-stack">Bootstrap</span>
-                    <span id="tech-stack">QR Library</span>
+                    <span id="tech-stack">MDB React UI</span>
+                    <span id="tech-stack">React Toastify</span>
                   </div>
                 </div>
               </div>
@@ -109,11 +108,10 @@ function Projects() {
                   <img src={Project3} alt="Project 3" loading="lazy" />
                 </div>
                 <div className="project-content">
-                  <h3>BisaNgopi</h3>
+                  <h3>E-Bookpolis</h3>
                   <p>
-                    BisaNgopi merupakan web aplikasi kasir online yang memiliki
-                    3 role yaitu Admin, Manager, dan Cashier. Info lengkap
-                    tentang fitur lainnya bisa dilihat di repository github
+                    E-bookpolis is a website for selling and ordering book
+                    products.
                   </p>
                   <a
                     className="btn-website"
@@ -134,9 +132,8 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Laravel</span>
-                    <span id="tech-stack">Livewire</span>
-                    <span id="tech-stack">Bootstrap</span>
+                    <span id="tech-stack">Javascript</span>
+                    <span id="tech-stack">SwiperJS</span>
                   </div>
                 </div>
               </div>
@@ -147,15 +144,14 @@ function Projects() {
                   <img src={Project6} alt="Project 4" loading="lazy" />
                 </div>
                 <div className="project-content">
-                  <h3>GuessYourCrush</h3>
+                  <h3>Dapper Barber</h3>
                   <p>
-                    Web ini merupakan sebuah permainan tebak tebakan, dimana web
-                    ini dapat menebak nama teman, crush kamu atau nama yang
-                    sedang kamu pikirkan
+                    Dapper barber is a website for finding the best barbers in a
+                    city
                   </p>
                   <a
                     className="btn-website"
-                    href="https://guessyourcrush.netlify.app/"
+                    href="https://muhthoriqas.github.io/WebsiteBarber_Dapper/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -164,7 +160,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/guess-your-crush"
+                    href="https://github.com/Muhthoriqas/WebsiteBarber_Dapper"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -172,8 +168,8 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">React JS</span>
-                    <span id="tech-stack">React Bootstrap</span>
+                    <span id="tech-stack">Bootstrap 5</span>
+                    <span id="tech-stack">PHP</span>
                   </div>
                 </div>
               </div>
