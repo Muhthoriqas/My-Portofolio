@@ -47,7 +47,7 @@ function Projects() {
                   </p>
                   <a
                     className="btn-website"
-                    href="https://muhthoriqas.github.io/Google-Books-Search-ReactJS/"
+                    href="https://muhthoriqas.github.io/Recipe-Foods/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -56,7 +56,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Muhthoriqas/Google-Books-Search-ReactJS"
+                    href="https://github.com/Muhthoriqas/Recipe-Foods"
                     target="_blank"
                     rel="noreferrer"
                   >
