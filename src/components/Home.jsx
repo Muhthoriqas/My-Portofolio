@@ -12,8 +12,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./Home.css";
 
 function Home() {
-  const [image, setImage] = useState(realProfile);
-
   function setAvatarReal() {
     setImage(hoverProfile);
   }
@@ -21,6 +19,7 @@ function Home() {
   function setAvatarAnimation() {
     setImage(realProfile);
   }
+  const [image, setImage] = useState(realProfile);
 
   return (
     <>
@@ -49,8 +48,8 @@ function Home() {
           <img
             className="home-image"
             src={image}
-            onMouseEnter={setAvatarReal}
-            onMouseLeave={setAvatarAnimation}
+            onMouseOver={setAvatarReal}
+            onMouseOut={setAvatarAnimation}
             alt="Avatar"
           />
         </div>
