@@ -119,6 +119,9 @@ span#tech-stack {
   width: 100px;
   height: 40vh;
 }
+.custom-margin-bottom {
+  margin-bottom: 50px;
+}
 @keyframes portfolioani {
   0% {
     transform: translateY(0%);

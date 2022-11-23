@@ -33,7 +33,7 @@ function Projects() {
           </h4>
         </div>
         <div className="projects-wrapper animate__animated animate__fadeIn animate_slower my-4">
-          <div className="row">
+          <div className="row custom-margin-bottom">
             <div className="col project-col">
               <div className="project-card">
                 <div className="imgsec">
@@ -176,17 +176,76 @@ function Projects() {
             </div>
             <div className="col project-col">
               <div className="project-card">
+                <img src={Project7} alt="Project 6" loading="lazy" />
+                <div className="project-content">
+                  <h3>Weather Search</h3>
+                  <p>
+                    Is a website to find the current weather around the world,
+                    this website uses the OpenWeather API.
+                  </p>
+                  <a
+                    className="btn-website"
+                    href="https://muhthoriqas.github.io/WeatherApp-React/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineLink className="project-icon" />
+                    &nbsp;&nbsp;Website
+                  </a>
+                  <a
+                    className="btn-github"
+                    href="https://github.com/Muhthoriqas/WeatherApp-React"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="project-icon" />
+                    &nbsp;&nbsp;GitHub
+                  </a>
+                  <div className="d-block tech-stack-wrapper">
+                    <span id="tech-stack">React JS</span>
+                    <span id="tech-stack">SCSS</span>
+                    <span id="tech-stack">API</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col project-col">
+              <div className="project-card">
                 <img src={Project5} alt="Project 5" loading="lazy" />
                 <div className="project-content">
-                  <h3>Qur'an Digital</h3>
+                  <h3>Ordering Foods </h3>
                   <p>
-                    Proyek ini merupakan qur'an digital (API) yang dapat diakses
-                    secara online, bisa diakses dimana saja asal terhubung
-                    dengan koneksi internet, dan simpel
+                    Website for ordering food and drinks, on this website there
+                    is a special menu for the admin who can change the menu food
+                    and users who can only view and order food.
                   </p>
+
+                  <a
+                    className="btn-github"
+                    href="https://github.com/Muhthoriqas/FoodOrdering-Django"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="project-icon" />
+                    &nbsp;&nbsp;GitHub
+                  </a>
+                  <div className="d-block tech-stack-wrapper">
+                    <span id="tech-stack">Django</span>
+                    <span id="tech-stack">Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col project-col">
+              <div className="project-card">
+                <img src={Project10} alt="Project 7" loading="lazy" />
+                <div className="project-content">
+                  <h3>To Do List</h3>
+                  <p>Website to record any things you have to do.</p>
                   <a
                     className="btn-website"
-                    href="https://al-quran-digital.netlify.app/"
+                    href="https://muhthoriqas.github.io/Todo-JavaScripts/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -195,7 +254,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/quran-digital"
+                    href="https://github.com/Muhthoriqas/Todo-JavaScripts"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,66 +262,7 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">React JS</span>
-                    <span id="tech-stack">React Bootstrap</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col project-col">
-              <div className="project-card">
-                <img src={Project10} alt="Project 6" loading="lazy" />
-                <div className="project-content">
-                  <h3>Mathducation</h3>
-                  <p>
-                    Web ini adalah web kalkulator, menghitung diskon, menentukan
-                    hasil pangkat
-                  </p>
-                  <a
-                    className="btn-website"
-                    href="https://mathducation.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiOutlineLink className="project-icon" />
-                    &nbsp;&nbsp;Website
-                  </a>
-                  <a
-                    className="btn-github"
-                    href="https://github.com/Syafwan000/mathducation"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiFillGithub className="project-icon" />
-                    &nbsp;&nbsp;GitHub
-                  </a>
-                  <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">React JS</span>
-                    <span id="tech-stack">React Bootstrap</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col project-col">
-              <div className="project-card">
-                <img src={Project7} alt="Project 7" loading="lazy" />
-                <div className="project-content">
-                  <h3>Profile Diri</h3>
-                  <p>
-                    Proyek profile diri yang berisikan mengenai tentang dan
-                    skill, menyerupai portfolio tetapi berbasis mobile
-                  </p>
-                  <a
-                    className="btn-github"
-                    href="https://github.com/Syafwan000/self-profile"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiFillGithub className="project-icon" />
-                    &nbsp;&nbsp;GitHub
-                  </a>
-                  <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Flutter</span>
+                    <span id="tech-stack">Vanila Javascript</span>
                   </div>
                 </div>
               </div>
@@ -271,14 +271,14 @@ function Projects() {
               <div className="project-card">
                 <img src={Project8} alt="Project 8" loading="lazy" />
                 <div className="project-content">
-                  <h3>WikAbsensi</h3>
+                  <h3>AniMa</h3>
                   <p>
-                    Web ini merupakan absensi online bagi para peserta didik,
-                    terdapat sistem kehadiran dan juga rombel dan rayon
+                    AniMa is a website landing page to find various kinds of
+                    anime and manga.
                   </p>
                   <a
                     className="btn-website"
-                    href="http://wikabsensi.herokuapp.com/"
+                    href="https://muhthoriqas.github.io/WebLandingPage_Anime_ReactJS/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -287,7 +287,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/wikabsensi"
+                    href="https://github.com/Muhthoriqas/WebLandingPage_Anime_ReactJS"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -295,8 +295,8 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Laravel</span>
-                    <span id="tech-stack">Bootstrap</span>
+                    <span id="tech-stack">React</span>
+                    <span id="tech-stack">React Bootstrap</span>
                   </div>
                 </div>
               </div>
@@ -305,14 +305,14 @@ function Projects() {
               <div className="project-card">
                 <img src={Project9} alt="Project 9" loading="lazy" />
                 <div className="project-content">
-                  <h3>Cafekinton</h3>
+                  <h3>Riq Travel</h3>
                   <p>
-                    Web ini adalah pemesanan menu-menu cafe secara online.
-                    proyek ini dikerjakan oleh 3 orang
+                    Riq Travel is a website to find the best mentors and tours
+                    in Makassar city
                   </p>
                   <a
                     className="btn-website"
-                    href="http://cafekinton.rf.gd/"
+                    href="https://muhthoriqas.github.io/WebsiteTravel_Boostrap/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -321,7 +321,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/web-cafekinton"
+                    href="https://github.com/Muhthoriqas/WebsiteTravel_Boostrap"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -329,9 +329,40 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">PHP</span>
-                    <span id="tech-stack">CSS</span>
-                    <span id="tech-stack">JavaScript</span>
+                    <span id="tech-stack">Bootstrap 5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col project-col">
+              <div className="project-card">
+                <img src={Project11} alt="Project 11" loading="lazy" />
+                <div className="project-content">
+                  <h3>Marugame Landing Page</h3>
+                  <p>
+                    Website to promote food menus at marugame udon restaurants
+                  </p>
+                  <a
+                    className="btn-website"
+                    href="https://muhthoriqas.github.io/Marugame-Udon-LandingPage/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineLink className="project-icon" />
+                    &nbsp;&nbsp;Website
+                  </a>
+                  <a
+                    className="btn-github"
+                    href="https://github.com/Muhthoriqas/Marugame-Udon-LandingPage"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="project-icon" />
+                    &nbsp;&nbsp;GitHub
+                  </a>
+                  <div className="d-block tech-stack-wrapper">
+                    <span id="tech-stack">Bootstrap 5</span>
                   </div>
                 </div>
               </div>
@@ -340,24 +371,16 @@ function Projects() {
               <div className="project-card">
                 <img src={Project12} alt="Project 10" loading="lazy" />
                 <div className="project-content">
-                  <h3>PopCat Click</h3>
+                  <h3>Fish Weight Prediciton</h3>
                   <p>
-                    Web permainan klik sederhana yang bertema pop cat, permainan
-                    ini cukup sederhana hanyak mengspam klik sampai skor yang
-                    ingin dicapai
+                    This is a project to detect fish weight using 2 machine
+                    learning models, namely linear regression and polynomial
+                    regression
                   </p>
-                  <a
-                    className="btn-website"
-                    href="https://syafwan000.github.io/popcat-click/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiOutlineLink className="project-icon" />
-                    &nbsp;&nbsp;Website
-                  </a>
+
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/popcat-click"
+                    href="https://github.com/Muhthoriqas/Fish_Weight_Prediction_Linear_And_Polynomial_Regression"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -365,33 +388,8 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">TailwindCSS</span>
-                    <span id="tech-stack">JavaScript</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col project-col">
-              <div className="project-card">
-                <img src={Project11} alt="Project 11" loading="lazy" />
-                <div className="project-content">
-                  <h3>MIP Storage</h3>
-                  <p>
-                    Proyek pengelolaan barang-barang toko. proyek ini ditujukan
-                    kepada para pemilik toko
-                  </p>
-                  <a
-                    className="btn-github"
-                    href="https://github.com/Syafwan000/mip-storage"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiFillGithub className="project-icon" />
-                    &nbsp;&nbsp;GitHub
-                  </a>
-                  <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Laravel</span>
-                    <span id="tech-stack">Bootstrap</span>
+                    <span id="tech-stack">Python</span>
+                    <span id="tech-stack">Machine Learning</span>
                   </div>
                 </div>
               </div>
@@ -407,23 +405,16 @@ function Projects() {
                   />
                 </div>
                 <div className="project-content">
-                  <h3>SapuLator</h3>
+                  <h3>Food Ordering MU</h3>
                   <p>
-                    Proyek ini merupakan proyek web pertama kali yang saya buat,
-                    web ini berisikan tool tool perhitungan
+                    Food ordering application at Marugame Udon restaurant, this
+                    application consists of users/buyers and there is a special
+                    application for admin/waitresses
                   </p>
-                  <a
-                    className="btn-website"
-                    href="http://sapulator.epizy.com/index.php"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiOutlineLink className="project-icon" />
-                    &nbsp;&nbsp;Website
-                  </a>
+
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/web-sapulator"
+                    href="https://github.com/Muhthoriqas/AplikasiPemesananMakananMarugameUdon"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -431,9 +422,8 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">PHP</span>
-                    <span id="tech-stack">CSS</span>
-                    <span id="tech-stack">JavaScript</span>
+                    <span id="tech-stack">Java</span>
+                    <span id="tech-stack">Android</span>
                   </div>
                 </div>
               </div>
