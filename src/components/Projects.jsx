@@ -83,8 +83,17 @@ function Projects() {
                     website uses the Google Books APIs.
                   </p>
                   <a
+                    className="btn-website"
+                    href="https://muhthoriqas.github.io/Google-Books-Search-ReactJS/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineLink className="project-icon" />
+                    &nbsp;&nbsp;Website
+                  </a>
+                  <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/noshi-wedding-invitation"
+                    href="https://github.com/Muhthoriqas/Google-Books-Search-ReactJS"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -115,7 +124,7 @@ function Projects() {
                   </p>
                   <a
                     className="btn-website"
-                    href="http://bisa-ngopi.herokuapp.com/"
+                    href="https://muhthoriqas.github.io/E-BookStore/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -124,7 +133,7 @@ function Projects() {
                   </a>
                   <a
                     className="btn-github"
-                    href="https://github.com/Syafwan000/bisa-ngopi"
+                    href="https://github.com/Muhthoriqas/E-BookStore"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -428,41 +437,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-            {/* <div className="col project-col">
-              <div className="project-card">
-                <img src={Project13} alt="Project 13" loading="lazy" />
-                <div className="project-content">
-                  <h3>Covidteria</h3>
-                  <p>
-                    Proyek ini adalah web kuesioner mengenai Covid-19, dan juga
-                    menyajikan data sembuh, terpapar, dan kematian akibat
-                    Covid-19 (API)
-                  </p>
-                  <a
-                    className="btn-website"
-                    href="http://covidteria.rf.gd/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiOutlineLink className="project-icon" />
-                    &nbsp;&nbsp;Website
-                  </a>
-                  <a
-                    className="btn-github"
-                    href="https://github.com/Syafwan000/web-covidteria"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiFillGithub className="project-icon" />
-                    &nbsp;&nbsp;GitHub
-                  </a>
-                  <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">PHP</span>
-                    <span id="tech-stack">Bootstrap</span>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </Container>
