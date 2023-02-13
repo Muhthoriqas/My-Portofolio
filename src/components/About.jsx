@@ -19,6 +19,18 @@ import Certificate18 from "../assets/img/Certificate18.webp";
 import Certificate19 from "../assets/img/Certificate19.webp";
 import Certificate20 from "../assets/img/Certificate20.webp";
 import Certificate21 from "../assets/img/Certificate21.webp";
+import Certificate22 from "../assets/img/Certificate22.webp";
+import Certificate23 from "../assets/img/Certificate23.webp";
+import Certificate24 from "../assets/img/Certificate24.webp";
+import Certificate25 from "../assets/img/Certificate25.webp";
+import Certificate26 from "../assets/img/Certificate26.webp";
+import Certificate27 from "../assets/img/Certificate27.webp";
+import Certificate28 from "../assets/img/Certificate28.webp";
+import Certificate29 from "../assets/img/Certificate29.webp";
+import Certificate30 from "../assets/img/Certificate30.webp";
+import Certificate31 from "../assets/img/Certificate31.webp";
+import Certificate32 from "../assets/img/Certificate32.webp";
+import Certificate33 from "../assets/img/Certificate33.webp";
 
 import FsLightbox from "fslightbox-react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -70,6 +82,18 @@ function About() {
           Certificate19,
           Certificate20,
           Certificate21,
+          Certificate22,
+          Certificate23,
+          Certificate24,
+          Certificate25,
+          Certificate26,
+          Certificate27,
+          Certificate28,
+          Certificate29,
+          Certificate30,
+          Certificate31,
+          Certificate32,
+          Certificate33,
         ]}
         slide={lightboxController.slide}
       />
@@ -94,202 +118,332 @@ function About() {
           <span>─────</span>
           <div className="certificates-wrapper">
             <div className="row my-2">
-              <div className="col certificates-ratio">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate1}
-                  alt="Certificate 1"
-                  onClick={() => openLightboxOnSlide(1)}
-                />
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate22}
+                    alt="Certificate 22"
+                    onClick={() => openLightboxOnSlide(22)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate23}
+                    alt="Certificate 23"
+                    onClick={() => openLightboxOnSlide(23)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate24}
+                    alt="Certificate 24"
+                    onClick={() => openLightboxOnSlide(24)}
+                  />
+                </div>
               </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate2}
-                  alt="Certificate 2"
-                  onClick={() => openLightboxOnSlide(2)}
-                />
+
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate25}
+                    alt="Certificate 25"
+                    onClick={() => openLightboxOnSlide(25)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate26}
+                    alt="Certificate 26"
+                    onClick={() => openLightboxOnSlide(26)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate27}
+                    alt="Certificate 27"
+                    onClick={() => openLightboxOnSlide(27)}
+                  />
+                </div>
               </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate3}
-                  alt="Certificate 3"
-                  onClick={() => openLightboxOnSlide(3)}
-                />
+
+              <div className="row my-4">
+                <div className="col certificates-ratio ">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate28}
+                    alt="Certificate 28"
+                    onClick={() => openLightboxOnSlide(28)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate29}
+                    alt="Certificate 29"
+                    onClick={() => openLightboxOnSlide(29)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate30}
+                    alt="Certificate 30"
+                    onClick={() => openLightboxOnSlide(30)}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="row my-4">
-              <div className="col certificates-ratio">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate4}
-                  alt="Certificate 4"
-                  onClick={() => openLightboxOnSlide(4)}
-                />
+
+              <div className="row my-4">
+                <div className="col certificates-ratio ">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate31}
+                    alt="Certificate 31"
+                    onClick={() => openLightboxOnSlide(31)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate32}
+                    alt="Certificate 32"
+                    onClick={() => openLightboxOnSlide(32)}
+                  />
+                </div>
+
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate33}
+                    alt="Certificate 33"
+                    onClick={() => openLightboxOnSlide(33)}
+                  />
+                </div>
               </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate5}
-                  alt="Certificate 5"
-                  onClick={() => openLightboxOnSlide(5)}
-                />
+
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate1}
+                    alt="Certificate 1"
+                    onClick={() => openLightboxOnSlide(1)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate2}
+                    alt="Certificate 2"
+                    onClick={() => openLightboxOnSlide(2)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate3}
+                    alt="Certificate 3"
+                    onClick={() => openLightboxOnSlide(3)}
+                  />
+                </div>
               </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate6}
-                  alt="Certificate 6"
-                  onClick={() => openLightboxOnSlide(6)}
-                />
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate4}
+                    alt="Certificate 4"
+                    onClick={() => openLightboxOnSlide(4)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate5}
+                    alt="Certificate 5"
+                    onClick={() => openLightboxOnSlide(5)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate6}
+                    alt="Certificate 6"
+                    onClick={() => openLightboxOnSlide(6)}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="row my-4">
-              <div className="col certificates-ratio">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate7}
-                  alt="Certificate 7"
-                  onClick={() => openLightboxOnSlide(7)}
-                />
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate7}
+                    alt="Certificate 7"
+                    onClick={() => openLightboxOnSlide(7)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate8}
+                    alt="Certificate 8"
+                    onClick={() => openLightboxOnSlide(8)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate9}
+                    alt="Certificate 9"
+                    onClick={() => openLightboxOnSlide(9)}
+                  />
+                </div>
               </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate8}
-                  alt="Certificate 8"
-                  onClick={() => openLightboxOnSlide(8)}
-                />
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate10}
+                    alt="Certificate 10"
+                    onClick={() => openLightboxOnSlide(10)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate11}
+                    alt="Certificate 11"
+                    onClick={() => openLightboxOnSlide(11)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate12}
+                    alt="Certificate 12"
+                    onClick={() => openLightboxOnSlide(12)}
+                  />
+                </div>
               </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate9}
-                  alt="Certificate 9"
-                  onClick={() => openLightboxOnSlide(9)}
-                />
-              </div>
-            </div>
-            <div className="row my-4">
-              <div className="col certificates-ratio">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate10}
-                  alt="Certificate 10"
-                  onClick={() => openLightboxOnSlide(10)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate11}
-                  alt="Certificate 11"
-                  onClick={() => openLightboxOnSlide(11)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate12}
-                  alt="Certificate 12"
-                  onClick={() => openLightboxOnSlide(12)}
-                />
-              </div>
-            </div>
-            <div className="row my-4">
-              <div className="col certificates-ratio">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate13}
-                  alt="Certificate 13"
-                  onClick={() => openLightboxOnSlide(13)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate14}
-                  alt="Certificate 14"
-                  onClick={() => openLightboxOnSlide(14)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image dif-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate21}
-                  alt="Certificate 21"
-                  onClick={() => openLightboxOnSlide(21)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image dif-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate16}
-                  alt="Certificate 16"
-                  onClick={() => openLightboxOnSlide(16)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate17}
-                  alt="Certificate 17"
-                  onClick={() => openLightboxOnSlide(17)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate18}
-                  alt="Certificate 18"
-                  onClick={() => openLightboxOnSlide(18)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate19}
-                  alt="Certificate 19"
-                  onClick={() => openLightboxOnSlide(19)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate15}
-                  alt="Certificate 15"
-                  onClick={() => openLightboxOnSlide(15)}
-                />
-              </div>
-              <div className="col certificates-ratio gap-image">
-                <img
-                  className="shadow"
-                  loading="lazy"
-                  src={Certificate20}
-                  alt="Certificate 20"
-                  onClick={() => openLightboxOnSlide(20)}
-                />
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate13}
+                    alt="Certificate 13"
+                    onClick={() => openLightboxOnSlide(13)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate14}
+                    alt="Certificate 14"
+                    onClick={() => openLightboxOnSlide(14)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image dif-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate21}
+                    alt="Certificate 21"
+                    onClick={() => openLightboxOnSlide(21)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image dif-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate16}
+                    alt="Certificate 16"
+                    onClick={() => openLightboxOnSlide(16)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate17}
+                    alt="Certificate 17"
+                    onClick={() => openLightboxOnSlide(17)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate18}
+                    alt="Certificate 18"
+                    onClick={() => openLightboxOnSlide(18)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate19}
+                    alt="Certificate 19"
+                    onClick={() => openLightboxOnSlide(19)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate15}
+                    alt="Certificate 15"
+                    onClick={() => openLightboxOnSlide(15)}
+                  />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img
+                    className="shadow"
+                    loading="lazy"
+                    src={Certificate20}
+                    alt="Certificate 20"
+                    onClick={() => openLightboxOnSlide(20)}
+                  />
+                </div>
               </div>
             </div>
           </div>

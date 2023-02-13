@@ -12,6 +12,10 @@ import Project9 from "../assets/img/Project9.webp";
 import Project10 from "../assets/img/Project10.webp";
 import Project11 from "../assets/img/Project11.webp";
 import Project12 from "../assets/img/Project12.webp";
+import Project13 from "../assets/img/Project13.webp";
+import Project14 from "../assets/img/Project14.webp";
+import Project15 from "../assets/img/Project15.webp";
+
 import { Helmet, HelmetProvider } from "react-helmet-async";
 // import { Player } from "video-react";
 
@@ -74,6 +78,44 @@ function Projects() {
             <div className="col project-col">
               <div className="project-card">
                 <div className="imgsec">
+                  <img src={Project13} alt="Project 13" loading="lazy" />
+                </div>
+                <div className="project-content">
+                  <h3>Animal Aid</h3>
+                  <p>
+                    Animal Aid is an organization that saves animals from
+                    suffering, rehabilitates and releases them back into the
+                    wild.
+                  </p>
+                  <a
+                    className="btn-website"
+                    href="https://muhthoriqas.github.io/Animal-Aid/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineLink className="project-icon" />
+                    &nbsp;&nbsp;Website
+                  </a>
+                  <a
+                    className="btn-github"
+                    href="https://github.com/Muhthoriqas/Animal-Aid"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="project-icon" />
+                    &nbsp;&nbsp;GitHub
+                  </a>
+                  <div className="d-block tech-stack-wrapper">
+                    <span id="tech-stack">Javascript</span>
+                    <span id="tech-stack">HTML5</span>
+                    <span id="tech-stack">CSS3</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col project-col">
+              <div className="project-card">
+                <div className="imgsec">
                   <img src={Project2} alt="Project 2" loading="lazy" />
                 </div>
                 <div className="project-content">
@@ -120,7 +162,7 @@ function Projects() {
                   <h3>E-Bookpolis</h3>
                   <p>
                     E-bookpolis is a website for selling and ordering book
-                    products.
+                    products (Front-End).
                   </p>
                   <a
                     className="btn-website"
@@ -143,6 +185,36 @@ function Projects() {
                   <div className="d-block tech-stack-wrapper">
                     <span id="tech-stack">Javascript</span>
                     <span id="tech-stack">SwiperJS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col project-col">
+              <div className="project-card">
+                <img src={Project14} alt="Project 14" loading="lazy" />
+                <div className="project-content">
+                  <h3>Hoax News Detection (Team Project)</h3>
+                  <p>
+                    The project we created is a hoax news detection website, by
+                    simply entering the url of the news website you want to know
+                    the truth of
+                  </p>
+
+                  <a
+                    className="btn-github"
+                    href="https://github.com/Muhthoriqas/Hoax-News-Detection"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="project-icon" />
+                    &nbsp;&nbsp;GitHub
+                  </a>
+                  <div className="d-block tech-stack-wrapper">
+                    <span id="tech-stack">Python</span>
+                    <span id="tech-stack">Flask</span>
+                    <span id="tech-stack">Bootstrap5</span>
+                    <p></p>
+                    <span id="tech-stack">Machine Learning</span>
                   </div>
                 </div>
               </div>
@@ -211,9 +283,42 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">React JS</span>
+                    <span id="tech-stack">ReactJS</span>
                     <span id="tech-stack">SCSS</span>
                     <span id="tech-stack">API</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col project-col">
+              <div className="project-card">
+                <img src={Project15} alt="Project 15" loading="lazy" />
+                <div className="project-content">
+                  <h3>Personal Notes</h3>
+                  <p>
+                    In this website you can use CRUD operation to notes, search
+                    notes, archive notes, and more validation.
+                  </p>
+                  <a
+                    className="btn-website"
+                    href="https://personal-notes-thoriqas.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineLink className="project-icon" />
+                    &nbsp;&nbsp;Website
+                  </a>
+                  <a
+                    className="btn-github"
+                    href="https://github.com/Muhthoriqas/Notes-ReactJS"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="project-icon" />
+                    &nbsp;&nbsp;GitHub
+                  </a>
+                  <div className="d-block tech-stack-wrapper">
+                    <span id="tech-stack">ReactJS</span>
                   </div>
                 </div>
               </div>
@@ -271,7 +376,7 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">Vanila Javascript</span>
+                    <span id="tech-stack">Javascript</span>
                   </div>
                 </div>
               </div>
@@ -283,7 +388,7 @@ function Projects() {
                   <h3>AniMa</h3>
                   <p>
                     AniMa is a website landing page to find various kinds of
-                    anime and manga.
+                    anime and manga (Front-End).
                   </p>
                   <a
                     className="btn-website"
@@ -304,7 +409,7 @@ function Projects() {
                     &nbsp;&nbsp;GitHub
                   </a>
                   <div className="d-block tech-stack-wrapper">
-                    <span id="tech-stack">React</span>
+                    <span id="tech-stack">ReactJS</span>
                     <span id="tech-stack">React Bootstrap</span>
                   </div>
                 </div>
