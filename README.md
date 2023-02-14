@@ -12,7 +12,6 @@ This is a my personal portotofolio , in this webisite you can see about me, what
 * ![React](https://img.shields.io/badge/ReactJS-blue?style=for-the-badge&logo=React&logoColor=white)
 * ![Javascript](https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
 * ![Jqury](https://img.shields.io/badge/Jqury-brown?style=for-the-badge&logo=jquery&logoColor=white)
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
@@ -34,8 +33,6 @@ _Below is the way to run this project on your device. Please stat this repo firs
    ```sh
    code . (for shorcut to open VScode)
    ```
- 
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ### Contributing
@@ -51,4 +48,3 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin main`)
 5. Open a Pull Request
 
-<p align="right">(<a href="">Back to top</a>)</p>
