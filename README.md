@@ -12,16 +12,15 @@ This is a my personal portotofolio , in this webisite you can see about me, what
 * ![React](https://img.shields.io/badge/ReactJS-blue?style=for-the-badge&logo=React&logoColor=white)
 * ![Javascript](https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white)
 * ![Jqury](https://img.shields.io/badge/Jqury-brown?style=for-the-badge&logo=jquery&logoColor=white)
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. Plese Stat this repo first :)._
+_Below is the way to run this project on your device. Please stat this repo first :)_
 
-1. Star this repo 
+1. Star this repo :)
 2. Clone the repo
    ```sh
    git clone https://github.com/Muhthoriqas/My-Portofolio.git
@@ -32,10 +31,8 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Open Your Text Editor
    ```sh
-   *code .* (for shorcut to open VScode)
+   code . (for shorcut to open VScode)
    ```
- 
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ### Contributing
@@ -51,4 +48,3 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin main`)
 5. Open a Pull Request
 
-<p align="right">(<a href="">Back to top</a>)</p>
