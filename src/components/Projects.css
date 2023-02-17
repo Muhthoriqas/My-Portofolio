@@ -52,7 +52,8 @@
 }
 
 a.btn-website,
-a.btn-github {
+a.btn-github,
+a.btn-maintenence {
   font-family: "Manrope", sans-serif;
   text-decoration: none;
   color: var(--fourth-color);
@@ -62,8 +63,14 @@ a.btn-github {
 }
 
 a.btn-website:hover,
-a.btn-github:hover {
+a.btn-github:hover,
+a.btn-maintenence {
   color: var(--fourth-color);
+}
+
+a.btn-maintenence {
+  background-color: #e1c16e;
+  color: #000;
 }
 
 a.btn-website {
