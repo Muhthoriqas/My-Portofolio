@@ -87,16 +87,11 @@ function Projects() {
                     suffering, rehabilitates and releases them back into the
                     wild.
                   </p>
-                  <a
-                    className="btn-website"
-                    href="https://muhthoriqas.github.io/Animal-Aid/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a className="btn-website" href="" rel="noreferrer">
                     <AiOutlineLink className="project-icon" />
-                    &nbsp;&nbsp;Website
+                    &nbsp;&nbsp; Website Maintenence
                   </a>
-                  <a
+                  {/* <a
                     className="btn-github"
                     href="https://github.com/Muhthoriqas/Animal-Aid"
                     target="_blank"
@@ -104,7 +99,7 @@ function Projects() {
                   >
                     <AiFillGithub className="project-icon" />
                     &nbsp;&nbsp;GitHub
-                  </a>
+                  </a> */}
                   <div className="d-block tech-stack-wrapper">
                     <span id="tech-stack">Javascript</span>
                     <span id="tech-stack">HTML5</span>
