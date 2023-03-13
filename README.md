@@ -33,6 +33,14 @@ _Below is the way to run this project on your device. Please stat this repo firs
    ```sh
    code . (for shorcut to open VScode)
    ```
+5. Install NPM
+   ```sh
+   npm install
+   ```
+6. Run Local Server
+   ```sh
+   npm start
+   ```
 
 <!-- CONTRIBUTING -->
 ### Contributing
