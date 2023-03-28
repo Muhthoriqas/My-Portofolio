@@ -18,7 +18,7 @@ This is a my personal portotofolio , in this webisite you can see about me, what
 <!-- GETTING STARTED -->
 ### Installation
 
-_Below is the way to run this project on your device. Please stat this repo first :)_
+_Below is the way to run this project on your device. Please star this repo first :)_
 
 1. Star this repo :)
 2. Clone the repo
