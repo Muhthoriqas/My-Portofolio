@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import "./Projects.css";
+import "./CSS/Projects.css";
 import allProjects from '../assets/Routes/AllProject';
 function Projects() {
   return (

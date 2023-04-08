@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
-import "./Footer.css";
+import "./CSS/Footer.css";
 
 function Footer() {
   return (

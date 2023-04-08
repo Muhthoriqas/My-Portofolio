@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
 import { GrClose } from "react-icons/gr";
 import { useState } from "react";
-import "./NavTop.css";
+import "./CSS/NavTop.css";
 
 function NavTop() {
   const [toogleMenu, setToogleMenu] = useState(false);

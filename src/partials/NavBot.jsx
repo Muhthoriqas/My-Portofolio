@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import "./NavBot.css";
+import "./CSS/NavBot.css";
 
 function NavBot() {
   var numberPage;

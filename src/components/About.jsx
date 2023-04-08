@@ -2,7 +2,7 @@ import FsLightbox from "fslightbox-react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container } from "react-bootstrap";
 import { useState } from "react";
-import "./About.css";
+import "./CSS/About.css";
 import certificateImages from "../assets/Routes/AllCertificate";
 
 function About() {

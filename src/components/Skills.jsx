@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import "./Skills.css";
+import "./CSS/Skills.css";
 
 function Skills() {
   return (

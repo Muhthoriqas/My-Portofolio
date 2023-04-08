@@ -9,7 +9,7 @@ import hoverProfile from "../assets/img/profilehover.webp";
 import Hi from "../assets/img/Hi.gif";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import "./Home.css";
+import "./CSS/Home.css";
 
 function Home() {
   function setAvatarReal() {

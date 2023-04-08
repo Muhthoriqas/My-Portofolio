@@ -11,7 +11,7 @@ import { FiCopy } from "react-icons/fi";
 import { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import "./Contact.css";
+import "./CSS/Contact.css";
 
 function Contact() {
   const [alreadyCopy, setAlreadyCopy] = useState("Copy");
