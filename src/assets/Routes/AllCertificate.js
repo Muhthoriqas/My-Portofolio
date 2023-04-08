@@ -31,16 +31,27 @@ import Certificate30 from "../img/Certificate30.webp";
 import Certificate31 from "../img/Certificate31.webp";
 import Certificate32 from "../img/Certificate32.webp";
 import Certificate33 from "../img/Certificate33.webp";
+import Certificate34 from "../img/Certificate34.webp"
+import Certificate35 from "../img/Certificate35.webp"
+import Certificate36 from "../img/Certificate36.webp"
+import Certificate37 from "../img/Certificate37.webp"
+import Certificate38 from "../img/Certificate38.webp"
+import Certificate39 from "../img/Certificate39.webp"
 
 const certificateImages = [
-  Certificate1,
+  Certificate22,
+  Certificate5,
+  Certificate34,
   Certificate2,
   Certificate3,
+  Certificate24,
+  Certificate1,
   Certificate4,
-  Certificate5,
+  Certificate38,
   Certificate6,
-  Certificate7,
   Certificate8,
+Certificate35,
+
   Certificate9,
   Certificate10,
   Certificate11,
@@ -54,9 +65,7 @@ const certificateImages = [
   Certificate19,
   Certificate20,
   Certificate21,
-  Certificate22,
   Certificate23,
-  Certificate24,
   Certificate25,
   Certificate26,
   Certificate27,
@@ -66,6 +75,11 @@ const certificateImages = [
   Certificate31,
   Certificate32,
   Certificate33,
+Certificate36,
+Certificate37,
+Certificate39,
+Certificate7,
+
 ];
 
 export default certificateImages;
