@@ -40,8 +40,8 @@ const allProjects = [
     title: 'Personal Notes',
     img: require('../img/Project15.webp'),
     description: 'A web app to save your notes with CRUD functionalities.',
-    websiteUrl: 'https://muhthoriqas.github.io/personal-notes-react-app/',
-    githubUrl: 'https://github.com/Muhthoriqas/personal-notes-react-app',
+    websiteUrl: 'https://personal-notes-thoriqas.vercel.app/',
+    githubUrl: 'https://github.com/Muhthoriqas/Notes-ReactJS',
     techStack: ['ReactJS', 'Redux'],
   },
   {
