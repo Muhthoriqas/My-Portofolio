@@ -3,6 +3,7 @@ import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./CSS/Projects.css";
 import allProjects from '../assets/Routes/AllProject';
+console.log(allProjects)
 function Projects() {
   return (
     <>
@@ -29,10 +30,21 @@ function Projects() {
                   <div className="project-content">
                     <h3>{project.title}</h3>
                     <p>{project.description}</p>
-                    <a className="btn-website" href={project.websiteUrl} target="_blank" rel="noreferrer">
+                    {/* <a className="btn-website" href={project.websiteUrl} target="_blank" rel="noreferrer">
                       <AiOutlineLink className="project-icon" />
                       &nbsp;&nbsp;Website
-                    </a>
+                    </a> */}
+                    {project.websiteUrl !== "" ? project.maintenence === true ? (
+                      <a className="btn-maintenence btn" href={project.websiteUrl} rel="noreferrer" >
+                        <AiOutlineLink className="project-icon" />
+                        &nbsp;&nbsp;Maintenance
+                      </a>
+                    ) : (
+                      <a className="btn-website btn" href={project.websiteUrl} target="_blank" rel="noreferrer">
+                        <AiOutlineLink className="project-icon" />
+                        &nbsp;&nbsp;Website
+                      </a>
+                    ) : ""}
                     <a className="btn-github" href={project.githubUrl} target="_blank" rel="noreferrer">
                       <AiFillGithub className="project-icon" />
                       &nbsp;&nbsp;GitHub

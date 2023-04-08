@@ -60,22 +60,27 @@ a.btn-maintenence {
   padding: 6px 8px 6px 8px;
   border-radius: 0.3rem;
   font-size: 14px;
+
 }
 
 a.btn-website:hover,
 a.btn-github:hover,
 a.btn-maintenence {
-  color: var(--fourth-color);
+  background-color: var(--five-color);
+  color: var(--six-color);
 }
 
 a.btn-maintenence {
-  background-color: #e1c16e;
+  background-color: var(--five-color);
   color: #000;
+  margin-right: 5px;
+  pointer-events: none;
+  opacity: 0.8;
 }
 
 a.btn-website {
   margin-right: 6px;
-  background-color: #0d6efd;
+  background-color: var(--six-color);
 }
 
 a.btn-github {
@@ -162,15 +167,11 @@ span#tech-stack {
     font-size: 16px;
   }
 
-  /* .project-card {
-    width: 80%;
-  } */
+
 }
 
 @media (max-width: 576px) {
-  /* .col.project-col {
-    justify-content: start;
-  } */
+
 
   .project-card img {
     width: 300px !important;
