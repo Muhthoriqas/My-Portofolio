@@ -10,7 +10,7 @@ import NavTop from "./partials/NavTop";
 import NavBot from "./partials/NavBot";
 import Footer from "./partials/Footer";
 import Home from "./components/Home";
-import "./index";
+import "./global.css";
 
 function App() {
   const [preload, setPreload] = useState(true);
