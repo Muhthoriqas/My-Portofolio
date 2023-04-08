@@ -47,7 +47,7 @@
     margin: 8px 0 8px 0;
     padding: 18px;
     background-color: var(--third-color);
-    box-shadow: 8px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.3);
 }
 
 .email-wrapper h3, .linkedin-wrapper h3,
