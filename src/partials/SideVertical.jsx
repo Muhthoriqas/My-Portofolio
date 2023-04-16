@@ -85,10 +85,10 @@ function SideVertical(props) {
           <p className="side-number">
             {numberPage} <span className="disabled-color">/ 05</span>
           </p>
-          <Link to={directUp} className="d-flex align-items-center pb-3 arrow">
+          <Link to={directUp} className="d-flex align-items-center pb-3 arrow" aria-label="arrow up">
             <AiOutlineArrowUp />
           </Link>
-          <Link to={directDown} className="d-flex align-items-center arrow">
+          <Link to={directDown} className="d-flex align-items-center arrow" aria-label="arrow down">
             <AiOutlineArrowDown />
           </Link>
         </div>
