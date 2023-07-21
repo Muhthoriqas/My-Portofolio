@@ -50,8 +50,7 @@ const certificateImages = [
   Certificate38,
   Certificate6,
   Certificate8,
-Certificate35,
-
+  Certificate35,
   Certificate9,
   Certificate10,
   Certificate11,
@@ -79,7 +78,6 @@ Certificate36,
 Certificate37,
 Certificate39,
 Certificate7,
-
 ];
 
 export default certificateImages;

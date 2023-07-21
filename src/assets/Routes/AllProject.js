@@ -6,7 +6,25 @@ const allProjects = [
       'Meal Map is a website to search food recipes around the world, this website uses the edamam API.',
     websiteUrl: 'https://muhthoriqas.github.io/Recipe-Foods/',
     githubUrl: 'https://github.com/Muhthoriqas/Recipe-Foods',
-    techStack: ['Javascript', 'SASS', 'API'],
+    techStack: ['Javascript', 'SASS', 'RESTful API'],
+  },
+  {
+    title: 'Simpel Store',
+    img: require('../img/Project17.webp'),
+    description:
+      'Simple Store is a full-stack website, allowing users to add items, earn tokens, and redeem tokens.',
+    websiteUrl: 'https://store-discount.vercel.app/',
+    githubUrl: 'https://github.com/Muhthoriqas/Store-Discount',
+    techStack: ['Next.js', 'Express', 'Firebase'],
+  },
+  {
+    title: 'BarKit (Team Project)',
+    img: require('../img/Project16.webp'),
+    description:
+      'Barkit is a rental application with a primary feature of clickbait item detection',
+    websiteUrl: '',
+    githubUrl: 'https://github.com/BangkitCapstone2023',
+    techStack: ['Android', 'Express', 'React', 'GCP'],
   },
   {
     title: 'Animal Aid',
@@ -83,24 +101,24 @@ const allProjects = [
     githubUrl: 'https://github.com/Muhthoriqas/Hoax-News-Detection',
     techStack: ['Python', 'Flask', 'Bootstrap5', 'ML'],
   },
-  {
-    title: 'Marugame Landing Page',
-    img: require('../img/Project11.webp'),
-    description: 'Website to promote food menus at marugame udon restaurants',
-    websiteUrl: 'https://muhthoriqas.github.io/Marugame-Udon-LandingPage/',
-    githubUrl: 'https://github.com/Muhthoriqas/Marugame-Udon-LandingPage',
-    techStack: ['Bootstrap 5'],
-  },
-  {
-    title: 'Fish Weight Prediction',
-    img: require('../img/Project12.webp'),
-    description:
-      'This is a project to detect fish weight using 2 machine learning models, namely linear regression and polynomial regression',
-    websiteUrl: '',
-    githubUrl:
-      'https://github.com/Muhthoriqas/Fish_Weight_Prediction_Linear_And_Polynomial_Regression',
-    techStack: ['Python', 'Machine Learning'],
-  },
+  // {
+  //   title: 'Marugame Landing Page',
+  //   img: require('../img/Project11.webp'),
+  //   description: 'Website to promote food menus at marugame udon restaurants',
+  //   websiteUrl: 'https://muhthoriqas.github.io/Marugame-Udon-LandingPage/',
+  //   githubUrl: 'https://github.com/Muhthoriqas/Marugame-Udon-LandingPage',
+  //   techStack: ['Bootstrap 5'],
+  // },
+  // {
+  //   title: 'Fish Weight Prediction',
+  //   img: require('../img/Project12.webp'),
+  //   description:
+  //     'This is a project to detect fish weight using 2 machine learning models, namely linear regression and polynomial regression',
+  //   websiteUrl: '',
+  //   githubUrl:
+  //     'https://github.com/Muhthoriqas/Fish_Weight_Prediction_Linear_And_Polynomial_Regression',
+  //   techStack: ['Python', 'Machine Learning'],
+  // },
 
   {
     title: 'Ordering Foods',

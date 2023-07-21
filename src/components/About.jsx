@@ -1,9 +1,9 @@
-import FsLightbox from "fslightbox-react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container } from "react-bootstrap";
-import { useState } from "react";
-import "./CSS/About.css";
-import certificateImages from "../assets/Routes/AllCertificate";
+import FsLightbox from 'fslightbox-react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Container } from 'react-bootstrap';
+import { useState } from 'react';
+import './CSS/About.css';
+import certificateImages from '../assets/Routes/AllCertificate';
 
 function About() {
   const [lightboxController, setLightboxController] = useState({
@@ -39,36 +39,39 @@ function About() {
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
           <p>
-            Hi, I'm Muh Thoriq AS, a student majoring in information systems at
-            one of the best universities in Sulawesi, namely Hasanuddin
-            University. Now I enjoy learning about web programming and cloud
-            computing. I am enthusiastic, self-motivated, reliable, responsible
-            and hardworking person. I can work well under pressure and adhere to
-            tight deadlines.
+            Hi, I'm Muh Thoriq AS, a student studying Information Systems at
+            Hasanuddin University. I have a strong interest in web programming
+            and cloud computing. Specifically, I use a combination of
+            technologies called the MERN stack (MongoDB, Express.js, React.js,
+            Node.js), and I am also knowledgeable in cloud computing using
+            Google Cloud Platform (GCP), which allows me to create, manage, and
+            deploy dynamic, interactive, and secure web applications.
           </p>
 
           <h4>Certificates</h4>
           <span>─────</span>
           <div className="certificates-wrapper">
-            {certificateImages.reduce((rows, src, index) => {
-              if (index % 3 === 0) rows.push([]);
-              rows[rows.length - 1].push(
-                <div className="col certificates-ratio gap-image" key={src}>
-                  <img
-                    className="shadow"
-                    loading="lazy"
-                    src={src}
-                    alt={`Certificate ${index + 1}`}
-                    onClick={() => openLightboxOnSlide(index + 1)}
-                  />
+            {certificateImages
+              .reduce((rows, src, index) => {
+                if (index % 3 === 0) rows.push([]);
+                rows[rows.length - 1].push(
+                  <div className="col certificates-ratio gap-image" key={src}>
+                    <img
+                      className="shadow"
+                      loading="lazy"
+                      src={src}
+                      alt={`Certificate ${index + 1}`}
+                      onClick={() => openLightboxOnSlide(index + 1)}
+                    />
+                  </div>
+                );
+                return rows;
+              }, [])
+              .map((row, index) => (
+                <div className="row my-4" key={index}>
+                  {row}
                 </div>
-              );
-              return rows;
-            }, []).map((row, index) => (
-              <div className="row my-4" key={index}>
-                {row}
-              </div>
-            ))}
+              ))}
           </div>
         </div>
       </Container>

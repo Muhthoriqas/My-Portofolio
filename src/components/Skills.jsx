@@ -1,7 +1,7 @@
-import { Container } from "react-bootstrap";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Container } from 'react-bootstrap';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import "./CSS/Skills.css";
+import './CSS/Skills.css';
 
 function Skills() {
   return (
@@ -68,26 +68,30 @@ function Skills() {
                 title="Laravel"
               ></i>
               <i
-                className="devicon-codeigniter-plain-wordmark colored"
-                title="Codeingniter"
+                className="devicon-express-original-wordmark colored"
+                title="Express.js"
               ></i>
-
               <i
-                className="devicon-django-plain-wordmark colored"
-                title="Django"
+                class="devicon-firebase-plain-wordmark colored"
+                title="Firebase"
               ></i>
             </div>
           </div>
           <div className="row my-4 animate__animated animate__flipInX animate_slow">
             <div className="col">
-              <i className="devicon-python-plain colored" title="Pyhton"></i>
+              <i
+                class="devicon-nodejs-plain-wordmark colored"
+                title="Node.js"
+              ></i>
 
               <i className="devicon-sass-original colored" title="Sass"></i>
-              <i className="devicon-git-plain colored" title="Git"></i>
-
               <i
-                className="devicon-visualstudio-plain colored"
-                title="Visual Studio Code"
+                class="devicon-nextjs-original-wordmark colored"
+                title="Next.js"
+              ></i>
+              <i
+                class="devicon-docker-plain-wordmark colored"
+                title="Docker"
               ></i>
             </div>
           </div>

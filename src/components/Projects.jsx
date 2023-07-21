@@ -1,9 +1,9 @@
-import { Container } from "react-bootstrap";
-import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import "./CSS/Projects.css";
+import { Container } from 'react-bootstrap';
+import { AiOutlineLink, AiFillGithub } from 'react-icons/ai';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import './CSS/Projects.css';
 import allProjects from '../assets/Routes/AllProject';
-console.log(allProjects)
+console.log(allProjects);
 function Projects() {
   return (
     <>
@@ -34,18 +34,36 @@ function Projects() {
                       <AiOutlineLink className="project-icon" />
                       &nbsp;&nbsp;Website
                     </a> */}
-                    {project.websiteUrl !== "" ? project.maintenence === true ? (
-                      <a className="btn-maintenence btn" href={project.websiteUrl} rel="noreferrer" >
-                        <AiOutlineLink className="project-icon" />
-                        &nbsp;&nbsp;Maintenance
-                      </a>
+                    {project.websiteUrl !== '' ? (
+                      project.maintenence === true ? (
+                        <a
+                          className="btn-maintenence btn"
+                          href={project.websiteUrl}
+                          rel="noreferrer"
+                        >
+                          <AiOutlineLink className="project-icon" />
+                          &nbsp;&nbsp;Maintenance
+                        </a>
+                      ) : (
+                        <a
+                          className="btn-website btn"
+                          href={project.websiteUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <AiOutlineLink className="project-icon" />
+                          &nbsp;&nbsp;Website
+                        </a>
+                      )
                     ) : (
-                      <a className="btn-website btn" href={project.websiteUrl} target="_blank" rel="noreferrer">
-                        <AiOutlineLink className="project-icon" />
-                        &nbsp;&nbsp;Website
-                      </a>
-                    ) : ""}
-                    <a className="btn-github" href={project.githubUrl} target="_blank" rel="noreferrer">
+                      ''
+                    )}
+                    <a
+                      className="btn-github"
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <AiFillGithub className="project-icon" />
                       &nbsp;&nbsp;GitHub
                     </a>
